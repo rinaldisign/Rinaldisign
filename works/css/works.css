@@ -95,7 +95,7 @@ body{
   filter:drop-shadow(0 0 12px rgba(205,170,109,0.35));
 }
 .intro-logo{
-  width:38px; margin-top:-56px; opacity:0;
+  width:38px; margin-top:-70px; opacity:0;
   animation:logoIn 1s var(--ease) forwards;
   animation-delay:.7s;
 }
