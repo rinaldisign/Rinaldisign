@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Works — Rinaldisign</title>
+<meta name="description" content="The composition catalog — original piano works by Rinaldisign, on the way to one thousand.">
+
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="css/works.css">
+
+<!--
+  ====================================================================
+  STRUKTUR FILE HALAMAN INI
+  ====================================================================
+  index.html        -> markup saja (file ini)
+  css/works.css      -> semua tampilan halaman works
+  js/works-data.js   -> SATU-SATUNYA file yang perlu diedit untuk
+                        menambah/mengubah karya (array WORKS)
+  js/works.js        -> logic: render list, popup, intro, kunang-kunang
+
+  Background pakai ../img/WORKS_BG.jpg — pastikan file itu sudah
+  di-upload ke folder img/ di server dengan nama persis sama
+  (huruf besar/kecil ikut diperhitungkan).
+  ====================================================================
+-->
+</head>
+<body>
+
+<!-- Intro — logo + ensō -->
+<div id="introScreen">
+  <img class="intro-enso" src="../img/enso.png" alt="">
+  <img class="intro-logo" src="../img/logo.png" alt="Rinaldisign">
+  <span class="intro-word">Rinaldisign</span>
+</div>
+
+<div class="bg-vignette"></div>
+<div id="fireflies"></div>
+
+<nav class="site-nav" id="siteNav">
+  <a class="mark" href="../index.html">Rinaldisign</a>
+  <div class="links">
+    <a href="../index.html#listen">Listen</a>
+    <a href="../index.html">Home</a>
+  </div>
+</nav>
+
+<main>
+
+  <section class="works-hero">
+    <div class="section-inner">
+      <span class="label">The Catalog</span>
+      <h1>Works</h1>
+      <p class="sub">Every composition, catalogued as it's written — a slow, ongoing archive of inner melodies rendered for solo piano.</p>
+      <div class="tally">
+        <span class="n" id="tallyN">000</span>
+        <span class="of">of 1,000 composed</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalog">
+    <div class="section-inner">
+
+      <!-- List di-generate otomatis oleh js/works.js dari js/works-data.js -->
+      <div class="comp-list" id="compList"></div>
+
+      <p class="catalog-note">DN — short for the composer's working notebook. Each entry marks a finished piece, numbered in the order it was written, on the way to one thousand.</p>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <img class="foot-mark" src="../img/logo.png" alt="">
+  <p>&copy; <span id="year"></span> Rinaldisign. All compositions original.</p>
+  <div class="foot-links">
+    <a href="../index.html">Home</a>
+    <a href="../index.html#listen">Listen</a>
+  </div>
+</footer>
+
+<!-- Modal tunggal yang dipakai ulang untuk semua karya (di-isi via JS) -->
+<div class="work-modal" id="workModal">
+  <div class="work-modal-backdrop" onclick="closeWork()"></div>
+  <div class="work-modal-panel">
+    <div class="modal-close" onclick="closeWork()"></div>
+    <div class="modal-cover">
+      <img id="mCover" src="" alt="">
+    </div>
+    <div class="modal-body">
+      <span class="catno" id="mCatno"></span>
+      <h3 id="mTitle"></h3>
+      <p id="mDesc"></p>
+
+      <div class="modal-player" id="mPlayerWrap">
+        <iframe id="mPlayer" scrolling="no" frameborder="no" allow="autoplay" src=""></iframe>
+      </div>
+
+      <div class="modal-links">
+        <a id="mMusescore" href="#" target="_blank" rel="noopener" title="Sheet Music di Musescore">
+          <img src="../img/muse.png" alt="Musescore"> Sheet Music
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/works-data.js"></script>
+<script src="js/works.js"></script>
+
+</body>
+</html>
