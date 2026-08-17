@@ -44,7 +44,7 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "I composed this piece on a cold night, alone at the piano. As I sat in the quietness of the night, a melody seemed to emerge from nothingness — unbidden, fragile, and melancholic. From that solitary moment, filled with sadness and quiet reflection, Laserila was born. 2025",
     soundcloud: "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2278459511&color=%23cdaa6d&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&visual=false",
-    musescore: "#"
+    musescore: "https://musescore.com/user/118322597/scores/32670398"
   },
   {
     catno: "DN.4",
