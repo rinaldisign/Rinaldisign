@@ -102,7 +102,7 @@ main, footer, .work-modal, #introScreen{ position:relative; z-index:2; }
   filter:drop-shadow(0 0 12px rgba(205,170,109,0.35));
 }
 .intro-logo{
-  width:38px; margin-top:-120px; opacity:0;
+  width:38px; margin-top:-90px; opacity:0;
   animation:logoIn 1s var(--ease) forwards;
   animation-delay:.7s;
 }
