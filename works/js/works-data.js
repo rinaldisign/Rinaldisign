@@ -59,7 +59,7 @@ const WORKS = [
     catno: "DN.4",
     title: "(DATA LOST)",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "This was once my fourth composition, but the original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer. 2025",
+    desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer. 2025",
     soundcloud: "",
     musescore: "#"
   },
@@ -75,7 +75,7 @@ const WORKS = [
     catno: "DN.6",
     title: "(DATA LOST)",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "This was once my fourth composition, but the original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer. 2025",
+    desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer. 2025",
     soundcloud: "",
     musescore: "#"
   },
