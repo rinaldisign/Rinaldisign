@@ -110,5 +110,309 @@ const WORKS = [
     desc: "I wrote this piece naturally, using the same progression as the previous work. Here, I started to feel more comfortable writing my own original music.",
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/32843381"
-  }
+  },
+    {
+    catno: "DN.11",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+    {
+    catno: "DN.12",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+    {
+    catno: "DN.13",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+    {
+    catno: "DN.14",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+    {
+    catno: "DN.15",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+    {
+    catno: "DN.16",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+    {
+    catno: "DN.17",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+    {
+    catno: "DN.18",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+    {
+    catno: "DN.19",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+    {
+    catno: "DN.20",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+   {
+    catno: "DN.21",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+   {
+    catno: "DN.22",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+   {
+    catno: "DN.23",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+   {
+    catno: "DN.24",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+   {
+    catno: "DN.25",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+   {
+    catno: "DN.26",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+   {
+    catno: "DN.27",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+   {
+    catno: "DN.28",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+   {
+    catno: "DN.29",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+   {
+    catno: "DN.30",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+   {
+    catno: "DN.31",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.32",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.33",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.34",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.35",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.36",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.37",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.38",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.39",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.40",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.41",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.42",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.43",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.44",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.45",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.46",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.47",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.48",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
 ];
