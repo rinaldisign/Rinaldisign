@@ -32,6 +32,20 @@ html{ scroll-behavior:smooth; }
    Background ditaruh di <html> (bukan div position:fixed) supaya
    tidak "putus" kalau ada transform/filter di elemen lain. */
 html {
+  background: transparent;
+}
+body{
+  background:transparent; color:var(--ink);
+  position:relative; min-height:100vh; overflow-x:hidden;
+  font-family:'Manrope',sans-serif;
+}
+
+#bg-image {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+
   background-color: var(--bg);
   background-image:
     linear-gradient(
@@ -41,20 +55,11 @@ html {
       rgba(9,8,6,0.85) 100%
     ),
     url('../../img/WORKS_BG.jpg');
-
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-
-  background-attachment: fixed;
-
-  min-height: 100%;
 }
-body{
-  background:transparent; color:var(--ink);
-  position:relative; min-height:100vh; overflow-x:hidden;
-  font-family:'Manrope',sans-serif;
-}
+
 
 .bg-vignette{
   position:fixed; inset:0; z-index:-1; pointer-events:none;
