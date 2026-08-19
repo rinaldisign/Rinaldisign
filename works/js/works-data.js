@@ -162,7 +162,7 @@ const WORKS = [
   },
     {
     catno: "DN.12",
-    title: "(In Progress)",
+    title: "Memory Glow",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -184,7 +184,7 @@ const WORKS = [
   },
     {
     catno: "DN.14",
-    title: "(In Progress)",
+    title: "Memoriae",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -192,7 +192,7 @@ const WORKS = [
   },
     {
     catno: "DN.15",
-    title: "(In Progress)",
+    title: "Velarium Harpia",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -200,7 +200,7 @@ const WORKS = [
   },
     {
     catno: "DN.16",
-    title: "(In Progress)",
+    title: "Wistful",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -208,7 +208,7 @@ const WORKS = [
   },
     {
     catno: "DN.17",
-    title: "(In Progress)",
+    title: "Sitta Villosa",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -216,7 +216,7 @@ const WORKS = [
   },
     {
     catno: "DN.18",
-    title: "(In Progress)",
+    title: "Mellune",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -224,7 +224,7 @@ const WORKS = [
   },
     {
     catno: "DN.19",
-    title: "(In Progress)",
+    title: "Avelune",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -248,7 +248,7 @@ const WORKS = [
   },
    {
     catno: "DN.22",
-    title: "(In Progress)",
+    title: "2Keychains",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -272,7 +272,7 @@ const WORKS = [
   },
    {
     catno: "DN.25",
-    title: "(In Progress)",
+    title: "Lament",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -280,7 +280,7 @@ const WORKS = [
   },
    {
     catno: "DN.26",
-    title: "(In Progress)",
+    title: "Serenity",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -288,7 +288,7 @@ const WORKS = [
   },
    {
     catno: "DN.27",
-    title: "(In Progress)",
+    title: "Afterimage",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -296,7 +296,7 @@ const WORKS = [
   },
    {
     catno: "DN.28",
-    title: "(In Progress)",
+    title: "Descent",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -304,7 +304,7 @@ const WORKS = [
   },
    {
     catno: "DN.29",
-    title: "(In Progress)",
+    title: "Elysium",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
