@@ -415,4 +415,60 @@ const WORKS = [
     soundcloud: "",
     musescore: ""
   },
+  {
+    catno: "DN.49",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.50",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.51",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.52",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.53",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.54",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
+  {
+    catno: "DN.55",
+    title: "(In Progress)",
+    cover: "../img/covers/placeholder-2.jpg",
+    desc: "In Editing",
+    soundcloud: "",
+    musescore: ""
+  },
 ];
