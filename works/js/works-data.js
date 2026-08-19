@@ -46,9 +46,9 @@ const WORKS = [
     desc: "A quiet piano composition inspired by the depth of forest light. The piece moves slowly, allowing silence and resonance to create space and atmosphere. 2025",
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/32785730",
-    spotify: "",
-    appleMusic: "",
-    youtubeMusic: ""
+    spotify: "https://open.spotify.com/track/15QcSlGlge3L5lTAnLSKHW?si=frk8eO35SFGhyNXB06gJ4Q&utm_source=copy-link",
+    appleMusic: "https://music.apple.com/jp/album/lumin-forest/1879852119?i=1879852134&l=en-US",
+    youtubeMusic: "https://music.youtube.com/watch?v=UdMFZ4RQBwk&si=5fc4C3vyGfAMF1Fe"
   },
   {
     catno: "DN.2",
@@ -56,7 +56,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "A reflective piece exploring emotional distance and nostalgia. Soft harmonic motion creates a fragile and contemplative musical space. 2025",
     soundcloud: "",
-    musescore: "https://musescore.com/user/118322597/scores/32670671"
+    musescore: "https://musescore.com/user/118322597/scores/32670671",
+    spotify: "https://open.spotify.com/track/2OPhar8XPBx382rUYcgg3b?si=EoEsmhoDQv6jh8JoYKvoGQ&utm_source=copy-link",
+    appleMusic: "https://music.apple.com/jp/album/laserila/1879852119?i=1879852133&l=en-US",
+    youtubeMusic: "https://music.youtube.com/watch?v=3LW17v3eerU&si=YqDIvUqY_bfRwCts"
   },
   {
     catno: "DN.3",
@@ -64,7 +67,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "I composed this piece on a cold night, alone at the piano. As I sat in the quietness of the night, a melody seemed to emerge from nothingness — unbidden, fragile, and melancholic. From that solitary moment, filled with sadness and quiet reflection, Laserila was born. 2025",
     soundcloud: "",
-    musescore: "https://musescore.com/user/118322597/scores/32670398"
+    musescore: "https://musescore.com/user/118322597/scores/32670398",
+    spotify: "https://open.spotify.com/track/2KS5Ijfq415vaLsF0z3kFS?si=1kPC_99OSvuznO9WMllWDg&utm_source=copy-link",
+    appleMusic: "https://music.apple.com/jp/album/laserila/1879852119?i=1879852133&l=en-US",
+    youtubeMusic: "https://music.youtube.com/watch?v=3LW17v3eerU&si=YqDIvUqY_bfRwCts"
   },
   {
     catno: "DN.4",
@@ -75,7 +81,7 @@ const WORKS = [
     musescore: "#",
     spotify: "https://open.spotify.com/track/3uDIw3QNYLhVmbDrpPOuYC?si=p5dm9qmkTYCWJsl4VXKz0w&utm_source=copy-link",
     appleMusic: "https://music.apple.com/jp/album/cycle7/1879852119?i=1879852123&l=en-US",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=Vp6wTvKTQmI&si=X_kRhSjGGiKyI-48"
   },
   {
     catno: "DN.5",
@@ -83,7 +89,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "I feel a sense of tranquility whenever I listen to this melody. Its gentle and steady flow was created as a piece for the night, evoking the quiet atmosphere of a peaceful evening beneath the moonlight. The title Furnama is inspired by the Indonesian word for 'full moon,' symbolizing the calm and serene feeling that lies at the heart of this piece. 2025",
     soundcloud: "",
-    musescore: "https://musescore.com/user/118322597/scores/32670272"
+    musescore: "https://musescore.com/user/118322597/scores/32670272",
+    spotify: "https://open.spotify.com/track/0Cn4vgImV3K5kv4SqHbxKk?si=jNn1ZeYWTUq8-1kLXXK98Q&utm_source=copy-link",
+    appleMusic: "https://music.apple.com/jp/album/fu-rnama/1879852119?i=1879852124&l=en-US",
+    youtubeMusic: "https://music.youtube.com/watch?v=AlbKOcPhqps&si=zvbjPAvS6YvEZZRL"
   },
     {
     catno: "DN.6",
@@ -91,7 +100,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer. 2025",
     soundcloud: "",
-    musescore: "#"
+    musescore: "#",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.7",
@@ -99,7 +111,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "I created this piece after coming home from work feeling tired. As soon as I touched the piano keys, a lazy melody came from somewhere inside me, almost by itself. And that is how MYCRO was born. 2025",
     soundcloud: "",
-    musescore: "https://musescore.com/user/118322597/scores/32671463"
+    musescore: "https://musescore.com/user/118322597/scores/32671463",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.8",
@@ -107,7 +122,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "I wrote this piece while exploring a new chord progression from C# major to F minor. I only created a few very short melodic fragments in this piece. 2025",
     soundcloud: "",
-    musescore: "https://musescore.com/user/118322597/scores/32783756"
+    musescore: "https://musescore.com/user/118322597/scores/32783756",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.9",
@@ -115,7 +133,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "I created this piece while exploring a chord progression in C# major. I found a simple melody that felt melancholic, matching my mood at the time I composed it. 2025",
     soundcloud: "",
-    musescore: "https://musescore.com/user/118322597/scores/32813600"
+    musescore: "https://musescore.com/user/118322597/scores/32813600",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.10",
@@ -123,7 +144,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "I wrote this piece naturally, using the same progression as the previous work. Here, I started to feel more comfortable writing my own original music.",
     soundcloud: "",
-    musescore: "https://musescore.com/user/118322597/scores/32843381"
+    musescore: "https://musescore.com/user/118322597/scores/32843381",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
     {
     catno: "DN.11",
@@ -131,7 +155,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
     {
     catno: "DN.12",
@@ -139,7 +166,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
     {
     catno: "DN.13",
@@ -147,7 +177,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
     {
     catno: "DN.14",
