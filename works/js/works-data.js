@@ -68,11 +68,14 @@ const WORKS = [
   },
   {
     catno: "DN.4",
-    title: "(DATA LOST)",
+    title: "Cycle7",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer. 2025",
+    desc: "I created this simple melody in the key of C♯ minor because it is easy to play and useful for practice. It really helps train both the left and right hands. 2025",
     soundcloud: "",
-    musescore: "#"
+    musescore: "#",
+    spotify: "https://open.spotify.com/track/3uDIw3QNYLhVmbDrpPOuYC?si=p5dm9qmkTYCWJsl4VXKz0w&utm_source=copy-link",
+    appleMusic: "https://music.apple.com/jp/album/cycle7/1879852119?i=1879852123&l=en-US",
+    youtubeMusic: ""
   },
   {
     catno: "DN.5",
