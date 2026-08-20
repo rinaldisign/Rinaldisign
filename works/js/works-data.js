@@ -504,7 +504,7 @@ const WORKS = [
   },
   {
     catno: "DN.54",
-    title: "(In Progress)",
+    title: "Beloved Waltz",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
@@ -512,7 +512,7 @@ const WORKS = [
   },
   {
     catno: "DN.55",
-    title: "(In Progress)",
+    title: "Dearest Waltz",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
