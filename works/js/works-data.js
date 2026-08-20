@@ -112,7 +112,7 @@ const WORKS = [
     desc: "I created this piece after coming home from work feeling tired. As soon as I touched the piano keys, a lazy melody came from somewhere inside me, almost by itself. And that is how MYCRO was born. 2025",
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/32671463",
-    spotify: "",
+    spotify: "https://open.spotify.com/track/0hzVQ9f4j4a9aikvhxzAqy?si=1_dq6HY7QyW2RZXUsepR8g&utm_source=copy-link",
     appleMusic: "",
     youtubeMusic: ""
   },
@@ -123,7 +123,7 @@ const WORKS = [
     desc: "I wrote this piece while exploring a new chord progression from C# major to F minor. I only created a few very short melodic fragments in this piece. 2025",
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/32783756",
-    spotify: "",
+    spotify: "https://open.spotify.com/track/6dHtig4p6PpI34gRtwHTzr?si=QLyMFtANRPuMQITFks-j6w&utm_source=copy-link",
     appleMusic: "",
     youtubeMusic: ""
   },
@@ -134,7 +134,7 @@ const WORKS = [
     desc: "I created this piece while exploring a chord progression in C# major. I found a simple melody that felt melancholic, matching my mood at the time I composed it. 2025",
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/32813600",
-    spotify: "",
+    spotify: "https://open.spotify.com/track/1wC1ReOB9C8VleM0rP4BXQ?si=mRDYGte9TsuWcd0DDR5s2g&utm_source=copy-link",
     appleMusic: "",
     youtubeMusic: ""
   },
@@ -145,7 +145,7 @@ const WORKS = [
     desc: "I wrote this piece naturally, using the same progression as the previous work. Here, I started to feel more comfortable writing my own original music.",
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/32843381",
-    spotify: "",
+    spotify: "https://open.spotify.com/track/0lQOq4ioYW09mM90dzNpIH?si=_ZaD5TKJRGCiPt9zZZ0NnA&utm_source=copy-link",
     appleMusic: "",
     youtubeMusic: ""
   },
@@ -167,7 +167,7 @@ const WORKS = [
     desc: "In Editing",
     soundcloud: "",
     musescore: "",
-    spotify: "",
+    spotify: "https://open.spotify.com/track/439BJPDJaQXdYhKDzaQ6Ps?si=Ledo4mm4T6Ca2TfTNKyukg&utm_source=copy-link",
     appleMusic: "",
     youtubeMusic: ""
   },
@@ -196,7 +196,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
     {
     catno: "DN.16",
@@ -204,7 +207,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
     {
     catno: "DN.17",
@@ -212,7 +218,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
     {
     catno: "DN.18",
@@ -220,7 +229,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
     {
     catno: "DN.19",
@@ -228,7 +240,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
     {
     catno: "DN.20",
@@ -236,7 +251,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.21",
@@ -244,7 +262,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.22",
@@ -252,7 +273,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.23",
@@ -260,7 +284,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.24",
@@ -268,7 +295,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.25",
@@ -276,7 +306,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.26",
@@ -284,7 +317,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.27",
@@ -292,7 +328,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.28",
@@ -306,7 +345,7 @@ const WORKS = [
     catno: "DN.29",
     title: "Elysium",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "Upcoming Release",
     soundcloud: "",
     musescore: ""
   },
@@ -320,9 +359,9 @@ const WORKS = [
   },
    {
     catno: "DN.31",
-    title: "(In Progress)",
+    title: "Affectionary",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "Upcoming Release",
     soundcloud: "",
     musescore: ""
   },
@@ -506,7 +545,7 @@ const WORKS = [
     catno: "DN.54",
     title: "Beloved Waltz",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "Upcoming Release",
     soundcloud: "",
     musescore: ""
   },
@@ -514,7 +553,7 @@ const WORKS = [
     catno: "DN.55",
     title: "Dearest Waltz",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "Upcoming Release",
     soundcloud: "",
     musescore: ""
   },
