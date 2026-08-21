@@ -1,0 +1,32 @@
+name: Cleanup old work pages (one-off)
+
+# Workflow SEKALI PAKAI untuk menghapus folder works/dn1 ... works/dnN
+# yang lama (sisa sebelum dipindah ke folder /w/). Jalankan manual
+# sekali dari tab Actions, setelah itu file workflow ini boleh dihapus
+# lagi kalau mau (tidak wajib dipakai lagi).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Remove old works/dn* folders
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          shopt -s nullglob
+          dirs=(works/dn*/)
+          if [ ${#dirs[@]} -eq 0 ]; then
+            echo "Tidak ada folder works/dn* yang ditemukan, tidak ada yang perlu dihapus."
+            exit 0
+          fi
+          git rm -r --ignore-unmatch works/dn*/
+          git commit -m "chore: remove old works/dn* pages (moved to /w/)"
+          git push
