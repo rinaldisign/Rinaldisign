@@ -65,6 +65,16 @@ function normalize(str){
   return (str || '').toLowerCase().trim();
 }
 
+/* Path di works-data.js (cover, dll) ditulis relatif terhadap works/index.html,
+   misal "../img/covers/x.jpg". Itu benar kalau halaman ada di /works/, tapi
+   salah kalau halaman ada di /works/dn1/ (kedalaman URL beda). Normalisasi
+   ke path root-relative ("/img/covers/x.jpg") supaya selalu benar di
+   kedalaman URL manapun. */
+function resolveAssetPath(relPath){
+  if (!relPath) return relPath;
+  return relPath.replace(/^(\.\.\/)+/, '/');
+}
+
 function applyFilter(){
   const q = normalize(searchInput.value);
   filteredWorks = !q
@@ -95,7 +105,7 @@ function renderRows(){
     row.className = 'comp-row';
     row.style.animationDelay = `${i * 0.04}s`;
     row.innerHTML = `
-      <span class="cover"><img src="${w.cover}" alt="${w.title} — cover art" loading="lazy"></span>
+      <span class="cover"><img src="${resolveAssetPath(w.cover)}" alt="${w.title} — cover art" loading="lazy"></span>
       <span class="catno">${w.catno}</span>
       <span class="ctitle">${w.title}</span>
       <span class="plus"></span>
@@ -257,7 +267,7 @@ function openWork(index, opts = {}){
     }
   }
 
-  mCover.src = w.cover;
+  mCover.src = resolveAssetPath(w.cover);
   mCover.alt = w.title + ' — cover art';
   mCatno.textContent = w.catno;
   mTitle.textContent = w.title;
