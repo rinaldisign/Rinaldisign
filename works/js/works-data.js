@@ -360,7 +360,7 @@ const WORKS = [
    {
     catno: "DN.31",
     title: "Affectionary",
-    cover: "../img/covers/art-dn31",
+    cover: "../img/covers/art-dn31.jpg",
     desc: "Upcoming Release",
     soundcloud: "",
     musescore: ""
