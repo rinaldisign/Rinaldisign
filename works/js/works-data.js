@@ -360,7 +360,7 @@ const WORKS = [
    {
     catno: "DN.31",
     title: "Affectionary",
-    cover: "../img/covers/placeholder-2.jpg",
+    cover: "../img/covers/art-dn31",
     desc: "Upcoming Release",
     soundcloud: "",
     musescore: ""
@@ -544,7 +544,7 @@ const WORKS = [
   {
     catno: "DN.54",
     title: "Beloved Waltz",
-    cover: "../img/covers/placeholder-2.jpg",
+    cover: "../img/covers/art-dn54.jpg",
     desc: "Upcoming Release",
     soundcloud: "",
     musescore: ""
@@ -552,7 +552,7 @@ const WORKS = [
   {
     catno: "DN.55",
     title: "Dearest Waltz",
-    cover: "../img/covers/placeholder-2.jpg",
+    cover: "../img/covers/art-dn55.jpg",
     desc: "Upcoming Release",
     soundcloud: "",
     musescore: ""
