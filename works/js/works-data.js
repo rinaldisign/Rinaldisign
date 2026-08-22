@@ -113,7 +113,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/32671463",
     spotify: "https://open.spotify.com/track/0hzVQ9f4j4a9aikvhxzAqy?si=1_dq6HY7QyW2RZXUsepR8g&utm_source=copy-link",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/mycro-flaviventris/1878211692",
     youtubeMusic: ""
   },
    {
@@ -124,7 +124,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/32783756",
     spotify: "https://open.spotify.com/track/6dHtig4p6PpI34gRtwHTzr?si=QLyMFtANRPuMQITFks-j6w&utm_source=copy-link",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/lucent-sepium/1878211525",
     youtubeMusic: ""
   },
   {
@@ -135,7 +135,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/32813600",
     spotify: "https://open.spotify.com/track/1wC1ReOB9C8VleM0rP4BXQ?si=mRDYGte9TsuWcd0DDR5s2g&utm_source=copy-link",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/serein-paradisaea/1878211830",
     youtubeMusic: ""
   },
   {
@@ -146,7 +146,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/32843381",
     spotify: "https://open.spotify.com/track/0lQOq4ioYW09mM90dzNpIH?si=_ZaD5TKJRGCiPt9zZZ0NnA&utm_source=copy-link",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/serene-sepium/1878211837",
     youtubeMusic: ""
   },
     {
@@ -168,7 +168,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "",
     spotify: "https://open.spotify.com/track/439BJPDJaQXdYhKDzaQ6Ps?si=Ledo4mm4T6Ca2TfTNKyukg&utm_source=copy-link",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/memory-glow/1878211685",
     youtubeMusic: ""
   },
     {
@@ -188,7 +188,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "https://music.apple.com/us/song/memoriae-cyanopsitta/1879873855",
+    youtubeMusic: ""
   },
     {
     catno: "DN.15",
@@ -198,7 +201,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "",
     spotify: "",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/velarium-harpia-grand-piano/1878211849",
     youtubeMusic: ""
   },
     {
@@ -209,7 +212,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "",
     spotify: "",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/wistful-locustella/1879873857",
     youtubeMusic: ""
   },
     {
@@ -220,7 +223,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "",
     spotify: "",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/sitta-villosa/1879852138",
     youtubeMusic: ""
   },
     {
@@ -231,7 +234,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "",
     spotify: "",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/mellune-myzomela/1879873821",
     youtubeMusic: ""
   },
     {
@@ -242,7 +245,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "",
     spotify: "",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/avelune-oriolus/1879873796",
     youtubeMusic: ""
   },
     {
@@ -275,7 +278,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "",
     spotify: "",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/2-keychains-cygnus-studio-version/1878217781",
     youtubeMusic: ""
   },
    {
@@ -308,7 +311,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "",
     spotify: "",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/lament-corvuscorax-studio-version/1878217782",
     youtubeMusic: ""
   },
    {
@@ -319,7 +322,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "",
     spotify: "",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/serenity-alauda-studio-version/1878217784",
     youtubeMusic: ""
   },
    {
@@ -330,7 +333,7 @@ const WORKS = [
     soundcloud: "",
     musescore: "",
     spotify: "",
-    appleMusic: "",
+    appleMusic: "https://music.apple.com/us/song/afterimage-chrysoloph-studio-version/1878217787",
     youtubeMusic: ""
   },
    {
@@ -339,7 +342,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.29",
@@ -347,7 +353,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "Upcoming Release",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.30",
@@ -355,7 +364,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
    {
     catno: "DN.31",
@@ -363,7 +375,10 @@ const WORKS = [
     cover: "../img/covers/art-dn31.jpg",
     desc: "Upcoming Release",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.32",
@@ -371,7 +386,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.33",
@@ -379,7 +397,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.34",
@@ -387,7 +408,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.35",
@@ -395,7 +419,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.36",
@@ -403,7 +430,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.37",
@@ -411,7 +441,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.38",
@@ -419,7 +452,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.39",
@@ -427,7 +463,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.40",
@@ -435,7 +474,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.41",
@@ -443,7 +485,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.42",
@@ -451,7 +496,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.43",
@@ -459,7 +507,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.44",
@@ -467,7 +518,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.45",
@@ -475,7 +529,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.46",
@@ -483,7 +540,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.47",
@@ -491,7 +551,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.48",
@@ -499,7 +562,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.49",
@@ -507,7 +573,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.50",
@@ -515,7 +584,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.51",
@@ -523,7 +595,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.52",
@@ -531,7 +606,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.53",
@@ -539,7 +617,10 @@ const WORKS = [
     cover: "../img/covers/placeholder-2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.54",
@@ -547,7 +628,10 @@ const WORKS = [
     cover: "../img/covers/art-dn54.jpg",
     desc: "Upcoming Release",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
   {
     catno: "DN.55",
@@ -555,6 +639,9 @@ const WORKS = [
     cover: "../img/covers/art-dn55.jpg",
     desc: "Upcoming Release",
     soundcloud: "",
-    musescore: ""
+    musescore: "",
+    spotify: "",
+    appleMusic: "",
+    youtubeMusic: ""
   },
 ];
