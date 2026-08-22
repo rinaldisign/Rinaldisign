@@ -223,7 +223,7 @@ body::before{
   position:absolute; inset:0;
   width:100%; height:100%;
   object-fit:contain;
-  filter:invert(1) brightness(1.6) sepia(1) saturate(3) hue-rotate(10deg);
+  filter:brightness(0) invert(1) brightness(1.6) sepia(1) saturate(3) hue-rotate(10deg);
   opacity:.9;
   --reveal:0%;
   -webkit-mask-image:conic-gradient(from -90deg, #000 var(--reveal), transparent 0);
