@@ -97,7 +97,7 @@ const WORKS = [
     {
     catno: "DN.6",
     title: "(DATA LOST)",
-    cover: "../img/covers/art-dn1.jpg",
+    cover: "../img/covers/placeholder-2.jpg",
     desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer. 2025",
     soundcloud: "",
     musescore: "#",
@@ -186,7 +186,7 @@ const WORKS = [
     catno: "DN.14",
     title: "Memoriae",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "A melancholic piano piece shaped by nostalgia and memories of a distant past. Each note lingers like a fading recollection quiet, intimate, and bittersweet, as if remembering something that can never return.",
     soundcloud: "",
     musescore: "",
     spotify: "",
