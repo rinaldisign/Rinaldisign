@@ -164,7 +164,7 @@ const WORKS = [
     catno: "DN.12",
     title: "Memory Glow",
     cover: "../img/covers/art-dn2.jpg",
-    desc: "In Editing",
+    desc: "A slow solo piano instrumental filled with warm nostalgia, gentle affection, and a touch of loneliness. A quiet melody that carries memories of precious moments, love, and the soft emptiness of someone or something once held close.",
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/36852011",
     spotify: "https://open.spotify.com/track/439BJPDJaQXdYhKDzaQ6Ps?si=Ledo4mm4T6Ca2TfTNKyukg&utm_source=copy-link",
@@ -273,13 +273,13 @@ const WORKS = [
    {
     catno: "DN.22",
     title: "2Keychains",
-    cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    cover: "../img/covers/art-dn22.jpg",
+    desc: "Inspired by two keychains separated by distance and time, yet somehow still connected by fate, this original piano piece was born froma feeling I cannot easily put into words.Though they remain apart, their existence still seems to belong to the same story as if destiny continues to hold an invisible thread between them.This music carries a warm and melancholic atmosphere, with a touch of mystery. A reflection of distance, time, memories, and the quiet belief that some connections may never truly disappear.",
     soundcloud: "",
-    musescore: "",
-    spotify: "",
+    musescore: "https://musescore.com/user/118322597/scores/36858233",
+    spotify: "https://open.spotify.com/track/2HZaRxtrNYsYlTC3Dq9qze?si=7a28ad2be7064135",
     appleMusic: "https://music.apple.com/us/song/2-keychains-cygnus-studio-version/1878217781",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=ZA-JorSmkl4&si=04nBR8VNEY4eJuD5"
   },
    {
     catno: "DN.23",
