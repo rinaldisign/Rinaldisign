@@ -166,7 +166,7 @@ const WORKS = [
     cover: "../img/covers/art-dn2.jpg",
     desc: "In Editing",
     soundcloud: "",
-    musescore: "",
+    musescore: "https://musescore.com/user/118322597/scores/36852011",
     spotify: "https://open.spotify.com/track/439BJPDJaQXdYhKDzaQ6Ps?si=Ledo4mm4T6Ca2TfTNKyukg&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/memory-glow/1878211685",
     youtubeMusic: ""
