@@ -185,7 +185,7 @@ const WORKS = [
     {
     catno: "DN.14",
     title: "Memoriae",
-    cover: "../img/covers/placeholder-2.jpg",
+    cover: "../img/covers/art-dn3.jpg",
     desc: "A melancholic piano piece shaped by nostalgia and memories of a distant past. Each note lingers like a fading recollection quiet, intimate, and bittersweet, as if remembering something that can never return.",
     soundcloud: "",
     musescore: "",
@@ -196,7 +196,7 @@ const WORKS = [
     {
     catno: "DN.15",
     title: "Velarium Harpia",
-    cover: "../img/covers/art-dn2.jpg",
+    cover: "../img/covers/art-dn3.jpg",
     desc: "A piano piece in E minor, carrying a subtle darkness beneath its melody. Its quiet tension and shadowy harmonies create an introspective atmosphere melancholic, restrained, and slightly mysterious",
     soundcloud: "",
     musescore: "",
@@ -207,7 +207,7 @@ const WORKS = [
     {
     catno: "DN.16",
     title: "Wistful",
-    cover: "../img/covers/placeholder-2.jpg",
+    cover: "../img/covers/art-dn3.jpg",
     desc: "A warm and gentle piano piece bathed in a soft, luminous atmosphere. Beneath its tenderness lies a quiet melancholy, like a distant memory glowing softly through the passage of time.",
     soundcloud: "",
     musescore: "",
@@ -240,7 +240,7 @@ const WORKS = [
     {
     catno: "DN.19",
     title: "Avelune",
-    cover: "../img/covers/placeholder-2.jpg",
+    cover: "../img/covers/art-dn3.jpg",
     desc: "A delicate lullaby shaped by quiet tenderness and soft, flowing melodies. Gentle enough to drift into sleep, yet touched by a faint melancholy, like a distant memory whispered in the stillness of night.",
     soundcloud: "",
     musescore: "",
