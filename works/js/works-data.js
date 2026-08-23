@@ -200,7 +200,7 @@ const WORKS = [
     desc: "In Editing",
     soundcloud: "",
     musescore: "",
-    spotify: "",
+    spotify: "https://open.spotify.com/track/7nvmpTdXi4nFzCVYLZmZ4S?si=jG_y0DC9ST20whn0SwLuLg&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/velarium-harpia-grand-piano/1878211849",
     youtubeMusic: ""
   },
