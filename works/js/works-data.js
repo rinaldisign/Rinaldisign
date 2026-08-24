@@ -306,7 +306,7 @@ const WORKS = [
    {
     catno: "DN.25",
     title: "Lament",
-    cover: "../img/covers/placeholder-2.jpg",
+    cover: "../img/covers/art-dn22.jpg",
     desc: "I composed this piece while feeling sad, with a slight sense of frustration in my heart. I simply sat down at the piano, played this melody as it came to me, and recorded it in the moment.",
     soundcloud: "",
     musescore: "",
@@ -317,35 +317,35 @@ const WORKS = [
    {
     catno: "DN.26",
     title: "Serenity",
-    cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    cover: "../img/covers/art-dn22.jpg",
+    desc: "A melancholic piece with a quiet sadness, yet touched by a gentle light. Serenity captures the feeling of finding a small sense of peace within sorrow—soft, reflective, and quietly hopeful. I created it while my feelings were filled with restlessness, an overactive mind, and countless distractions.",
     soundcloud: "",
     musescore: "",
-    spotify: "",
+    spotify: "https://open.spotify.com/track/3fxCCQfcpACgqJNaw5OiYR?si=xqzmzvpWThixS_xmRKCq6w&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/serenity-alauda-studio-version/1878217784",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=AukOYKwd5-4&si=uqndaC5pBXq3VbXD"
   },
    {
     catno: "DN.27",
     title: "Afterimage",
-    cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    cover: "../img/covers/art-dn22.jpg",
+    desc: "I created Afterimage after a meeting that made my heart happy for a brief moment, only for me to return to a bitter reality afterward. I sat at the piano and simply played whatever melody came to me. I recorded it just as it was, and somehow, that moment became this piece of music.",
     soundcloud: "",
     musescore: "",
-    spotify: "",
+    spotify: "https://open.spotify.com/track/2Bswxc7vzIzIkUSfLHg2W0?si=3rlwEY3rQdqycURUs7K3hA&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/afterimage-chrysoloph-studio-version/1878217787",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=SQLm1ZCc2IY&si=tLnTQd-47kcYdLUL"
   },
    {
     catno: "DN.28",
     title: "Descent",
-    cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    cover: "../img/covers/art-dn22.jpg",
+    desc: "I created Descent while reflecting on the meaning of life. What is the purpose of living if, one day, everything will eventually fade away? I too will be forgotten, and perhaps nothing of me will remain. Yet I realized that the only thing I can do is create. I can leave something behind through my work something that may continue to exist, even after I am gone.",
     soundcloud: "",
     musescore: "",
-    spotify: "",
-    appleMusic: "",
-    youtubeMusic: ""
+    spotify: "https://open.spotify.com/track/2fBJQ4w8PjXngJMP7XfV4O?si=oMwBZj11TpS39IUYfnA-KQ&utm_source=copy-link",
+    appleMusic: "https://music.apple.com/jp/album/descent-rhipidura-studio-version/1878217657?i=1878217794&l=en-US",
+    youtubeMusic: "https://music.youtube.com/watch?v=gjv4gPgZarc&si=FJCCNZUNeOX-Tjlc"
   },
    {
     catno: "DN.29",
