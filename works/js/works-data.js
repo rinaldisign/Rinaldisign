@@ -637,7 +637,7 @@ const WORKS = [
     catno: "DN.55",
     title: "Dearest Waltz",
     cover: "../img/covers/art-dn55.jpg",
-    desc: "Dearest Waltz is a gentle and flowing waltz, born unexpectedly in a quiet moment at the piano. While finishing my previous composition, Waltz DN.54, I continued to play freely, and without planning it, the melody of this waltz began to emerge.Although written in C♯ minor, Dearest Waltz carries a cheerful and warm spirit. Its melody gently dances between light and shadow, portraying the feeling of smiling above sadness not to deny it, but to embrace it with hope. Beneath its joyful character lies a message of positivity, tenderness, and affection.Dearest Waltz is a small reminder that even in moments touched by sadness, there can still be warmth in the heart, a reason to smile, and love to share.",
+    desc: "Dearest Waltz is a gentle and flowing waltz, born unexpectedly in a quiet moment at the piano. While finishing my previous composition, Waltz DN.54, I continued to play freely, and without planning it, the melody of this waltz began to emerge.Although written in C♯ minor, Dearest Waltz carries a cheerful and warm spirit. Its melody gently dances between light and shadow, portraying the feeling of smiling above sadness not to deny it, but to embrace it with hope. Beneath its joyful character lies a message of positivity, tenderness, and affection.Dearest Waltz is a small reminder that even in moments touched by sadness, there can still be warmth in the heart, a reason to smile, and love to share. 8/2026",
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/36862169",
     spotify: "",
