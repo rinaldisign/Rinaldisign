@@ -56,7 +56,7 @@ const ECHOES = [
     videoId: "vuSGnq-V3MQ",
     vertical: true,
     sourceUrl: "https://www.reddit.com/r/piano/s/5tapV4EIYX",
-    sourceLabel: "Lihat thread di Reddit",
+    sourceLabel: "View thread on Reddit",
     date: "Agustus 2026",
     comments: [
       { author: "MonkeyD-Daniel", text: "Usually I skip self composed stuff on this reddit, idk why it's just not for me, but this is genuinely absolutely beautiful. It was a great pleasure listening to this. Do you have notes for this? Amazing piece." },
