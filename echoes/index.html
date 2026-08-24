@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Echoes - Rinaldisign</title>
+<meta name="description" content="Echoes — reactions from the world to Rinaldisign's original piano works.">
+
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="css/echoes.css">
+
+<!--
+  ====================================================================
+  STRUKTUR FILE HALAMAN INI
+  ====================================================================
+  index.html         -> halaman list ini (markup saja)
+  post.html           -> halaman detail 1 post (video + komentar gelembung)
+  css/echoes.css      -> semua tampilan section Echoes (list & detail)
+  js/echoes-data.js   -> SATU-SATUNYA file yang perlu diedit untuk
+                         menambah/mengubah post
+  js/echoes-list.js   -> logic khusus halaman list ini
+  js/echoes-post.js   -> logic khusus halaman detail (post.html)
+
+  Background pakai ../img/WORKS_BG.jpg (dipakai bersama dengan
+  halaman Works supaya section terasa satu keluarga visual).
+  ====================================================================
+-->
+</head>
+<body>
+<div id="bg-image"></div>
+
+<!-- Intro — logo + ensō -->
+<div id="introScreen">
+  <img class="intro-enso" src="../img/enso.png" alt="">
+  <img class="intro-logo" src="../img/logo.png" alt="Rinaldisign">
+  <span class="intro-word">Rinaldisign</span>
+</div>
+
+<div class="bg-vignette"></div>
+<div id="fireflies"></div>
+
+<nav class="site-nav" id="siteNav">
+  <a class="mark" href="../index.html">Rinaldisign</a>
+  <div class="links">
+    <a href="../works/index.html">Works</a>
+    <a href="../index.html#listen">Listen</a>
+    <a href="../index.html">Home</a>
+  </div>
+</nav>
+
+<main>
+
+  <section class="works-hero">
+    <div class="section-inner">
+      <span class="label">From Listeners</span>
+      <h1>Echoes</h1>
+      <p class="sub">Reactions from the world — real comments from people who found these pieces, gathered here alongside the moment it happened.</p>
+    </div>
+  </section>
+
+  <section class="echo-section">
+    <div class="section-inner">
+
+      <!-- List di-generate otomatis oleh js/echoes-list.js dari js/echoes-data.js -->
+      <div class="echo-grid" id="echoGrid"></div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <img class="foot-mark" src="../img/logo.png" alt="">
+  <p>&copy; <span id="year"></span> Rinaldisign. All compositions original.</p>
+  <div class="foot-links">
+    <a href="../index.html">Home</a>
+    <a href="../works/index.html">Works</a>
+    <a href="../index.html#listen">Listen</a>
+  </div>
+</footer>
+
+<script src="js/echoes-data.js"></script>
+<script src="js/echoes-list.js"></script>
+
+</body>
+</html>

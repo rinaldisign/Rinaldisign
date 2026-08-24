@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Echoes - Rinaldisign</title>
+<meta name="description" content="Echoes — reactions from the world to Rinaldisign's original piano works.">
+
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="css/echoes.css">
+
+<!--
+  ====================================================================
+  Halaman ini dipakai ULANG untuk SEMUA post — bukan 1 file per post.
+  Post mana yang tampil ditentukan lewat URL, contoh:
+      post.html?id=contoh-post-viral
+  "contoh-post-viral" harus sama persis dengan field "id" di
+  js/echoes-data.js. Isinya (judul, video, komentar, dst) di-render
+  otomatis oleh js/echoes-post.js.
+  ====================================================================
+-->
+</head>
+<body>
+<div id="bg-image"></div>
+
+<div id="introScreen">
+  <img class="intro-enso" src="../img/enso.png" alt="">
+  <img class="intro-logo" src="../img/logo.png" alt="Rinaldisign">
+  <span class="intro-word">Rinaldisign</span>
+</div>
+
+<div class="bg-vignette"></div>
+<div id="fireflies"></div>
+
+<nav class="site-nav" id="siteNav">
+  <a class="mark" href="../index.html">Rinaldisign</a>
+  <div class="links">
+    <a href="index.html">Echoes</a>
+    <a href="../works/index.html">Works</a>
+    <a href="../index.html">Home</a>
+  </div>
+</nav>
+
+<main>
+  <section class="echo-post">
+    <div class="section-inner">
+
+      <a class="back-link" href="index.html">&larr; All Echoes</a>
+
+      <span class="label" id="postDate"></span>
+      <h1 id="postTitle">Loading…</h1>
+      <p class="post-desc" id="postDesc"></p>
+
+      <div class="post-layout">
+
+        <div class="post-video-col">
+          <div class="video-frame">
+            <div id="ytPlayer"></div>
+          </div>
+          <div class="video-controls">
+            <button type="button" class="replay-btn" id="replayBtn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+              Replay comments
+            </button>
+            <a class="source-link" id="sourceLink" href="#" target="_blank" rel="noopener">Lihat thread di Reddit &rarr;</a>
+          </div>
+        </div>
+
+        <div class="post-comments-col">
+          <div class="comments-head">
+            <span>Comments</span>
+            <span class="comments-hint" id="commentsHint">Press play to see reactions</span>
+          </div>
+          <div class="bubble-feed" id="bubbleFeed"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <img class="foot-mark" src="../img/logo.png" alt="">
+  <p>&copy; <span id="year"></span> Rinaldisign. All compositions original.</p>
+  <div class="foot-links">
+    <a href="../index.html">Home</a>
+    <a href="../works/index.html">Works</a>
+    <a href="index.html">Echoes</a>
+  </div>
+</footer>
+
+<script src="js/echoes-data.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="js/echoes-post.js"></script>
+
+</body>
+</html>
