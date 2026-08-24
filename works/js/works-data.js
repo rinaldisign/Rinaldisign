@@ -96,7 +96,7 @@ const WORKS = [
   },
     {
     catno: "DN.6",
-    title: "(DATA LOST)",
+    title: "(Data Lost)",
     cover: "../img/covers/placeholder-2.jpg",
     desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer. 2025",
     soundcloud: "",
@@ -114,7 +114,7 @@ const WORKS = [
     musescore: "https://musescore.com/user/118322597/scores/32671463",
     spotify: "https://open.spotify.com/track/0hzVQ9f4j4a9aikvhxzAqy?si=1_dq6HY7QyW2RZXUsepR8g&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/mycro-flaviventris/1878211692",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=BCaZaCbu2PM&si=C0tQqNOBEsEBjv57"
   },
    {
     catno: "DN.8",
@@ -125,7 +125,7 @@ const WORKS = [
     musescore: "https://musescore.com/user/118322597/scores/32783756",
     spotify: "https://open.spotify.com/track/6dHtig4p6PpI34gRtwHTzr?si=QLyMFtANRPuMQITFks-j6w&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/lucent-sepium/1878211525",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=fGtd-ZxXdYg&si=K_azM3gaF-hWaHYh"
   },
   {
     catno: "DN.9",
@@ -147,13 +147,13 @@ const WORKS = [
     musescore: "https://musescore.com/user/118322597/scores/32843381",
     spotify: "https://open.spotify.com/track/0lQOq4ioYW09mM90dzNpIH?si=_ZaD5TKJRGCiPt9zZZ0NnA&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/serene-sepium/1878211837",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=bUO59vlnJLA&si=KPzb9Q_WjZ2IGoZE"
   },
     {
     catno: "DN.11",
-    title: "(In Progress)",
+    title: "(Data Lost)",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer.",
     soundcloud: "",
     musescore: "",
     spotify: "",
@@ -169,13 +169,13 @@ const WORKS = [
     musescore: "https://musescore.com/user/118322597/scores/36852011",
     spotify: "https://open.spotify.com/track/439BJPDJaQXdYhKDzaQ6Ps?si=Ledo4mm4T6Ca2TfTNKyukg&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/memory-glow/1878211685",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=VHFtm8mJ3wY&si=7JVlSMJOAvByyw47"
   },
     {
     catno: "DN.13",
-    title: "(In Progress)",
+    title: "(Data Lost)",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer.",
     soundcloud: "",
     musescore: "",
     spotify: "",
@@ -202,7 +202,7 @@ const WORKS = [
     musescore: "",
     spotify: "https://open.spotify.com/track/7nvmpTdXi4nFzCVYLZmZ4S?si=jG_y0DC9ST20whn0SwLuLg&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/velarium-harpia-grand-piano/1878211849",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=UgxiCJigUbk&si=nQioM1eiYkeuSydQ"
   },
     {
     catno: "DN.16",
@@ -213,7 +213,7 @@ const WORKS = [
     musescore: "",
     spotify: "https://open.spotify.com/track/06ImTrFBDxbTb4l4Q6YL5n?si=7Jss7oHVTlGAsfkZ1Y_ESA&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/wistful-locustella/1879873857",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=G7UaujWPHzc&si=JnCEWbjn_cNj9qrv"
   },
     {
     catno: "DN.17",
@@ -224,7 +224,7 @@ const WORKS = [
     musescore: "",
     spotify: "https://open.spotify.com/track/1LtvjirwAkYNQazP1Agdjt?si=RwOfqVSdQfy9HkBHtLd_1w&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/sitta-villosa/1879852138",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=AVjHnVV9ZOU&si=V3AFioUIp0g3K9JL"
   },
     {
     catno: "DN.18",
@@ -235,7 +235,7 @@ const WORKS = [
     musescore: "",
     spotify: "https://open.spotify.com/track/2CSACTYqXu4YoWAf4c3weU?si=QqAjrytMRP6Qpe7azy4ZlQ&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/mellune-myzomela/1879873821",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=nUGlzH49Yrs&si=hkM3Fi4Uhkb_CNG_"
   },
     {
     catno: "DN.19",
@@ -246,13 +246,13 @@ const WORKS = [
     musescore: "",
     spotify: "https://open.spotify.com/track/6744LGpGX0dYrF70ddeIVQ?si=lj66XLIxRECLDz0jYsxtug&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/avelune-oriolus/1879873796",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=juct3vASMMM&si=4vrb-yDYLA8h0g13"
   },
     {
     catno: "DN.20",
-    title: "(In Progress)",
+    title: "(Data Lost)",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer.",
     soundcloud: "",
     musescore: "",
     spotify: "",
@@ -261,9 +261,9 @@ const WORKS = [
   },
    {
     catno: "DN.21",
-    title: "(In Progress)",
+    title: "(Data Lost)",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer.",
     soundcloud: "",
     musescore: "",
     spotify: "",
@@ -283,9 +283,9 @@ const WORKS = [
   },
    {
     catno: "DN.23",
-    title: "(In Progress)",
+    title: "(Data Lost)",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer.",
     soundcloud: "",
     musescore: "",
     spotify: "",
@@ -294,9 +294,9 @@ const WORKS = [
   },
    {
     catno: "DN.24",
-    title: "(In Progress)",
+    title: "(Data Lost)",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "The original data was lost, along with the melody I had recorded. No trace of it remains. What survives today is only the memory that this piece once existed a small but meaningful part of my journey as a composer.",
     soundcloud: "",
     musescore: "",
     spotify: "",
@@ -307,12 +307,12 @@ const WORKS = [
     catno: "DN.25",
     title: "Lament",
     cover: "../img/covers/placeholder-2.jpg",
-    desc: "In Editing",
+    desc: "I composed this piece while feeling sad, with a slight sense of frustration in my heart. I simply sat down at the piano, played this melody as it came to me, and recorded it in the moment.",
     soundcloud: "",
     musescore: "",
-    spotify: "",
+    spotify: "https://open.spotify.com/track/4plysuxYPLk7Im2XiS8coQ?si=cgYfZKo2RfG1r9aQVHpgQQ&utm_source=copy-link",
     appleMusic: "https://music.apple.com/us/song/lament-corvuscorax-studio-version/1878217782",
-    youtubeMusic: ""
+    youtubeMusic: "https://music.youtube.com/watch?v=wCjZkWBL0nw&si=veBrk-ZOF0JsGzD2"
   },
    {
     catno: "DN.26",
