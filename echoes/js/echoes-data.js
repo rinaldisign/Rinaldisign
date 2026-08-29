@@ -67,6 +67,26 @@ const ECHOES = [
     ]
   }
 ];
+[
+  {
+    id: "i-play-dearest-waltz",
+    title: "When I Play Dearest Waltz at Night",
+    caption: "I chose to play this piece at a slightly faster pace, which gives it a more lively and energetic character. Honestly, playing this piece is incredibly fun, it has a sense of movement and excitement that makes every moment enjoyable.",
+    description: "I composed this piece and I'm currently experimenting with non-diatonic chord progressions. Some parts may sound a bit unconventional, but I'd love to hear your thoughts or feedback.",
+    videoId: "075pzcxdRsk",
+    vertical: true,
+    sourceUrl: "",
+    sourceLabel: "",
+    date: "Agustus 2026",
+    comments: [
+      { author: "", text: "" },
+      { author: "", text: "" },
+      { author: "", text: "" },
+      { author: "", text: "" },
+      { author: "", text: "" }
+    ]
+  }
+];
 
 // PENTING: baris ini WAJIB ada di baris paling bawah file ini.
 // "const ECHOES" di atas TIDAK otomatis jadi window.ECHOES (beda
