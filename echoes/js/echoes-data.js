@@ -70,10 +70,10 @@ const ECHOES = [
     id: "i-play-dearest-waltz",
     title: "When I Play Dearest Waltz at Night",
     caption: "I chose to play this piece at a slightly faster pace, which gives it a more lively and energetic character. Honestly, playing this piece is incredibly fun, it has a sense of movement and excitement that makes every moment enjoyable.",
-    description: "TODO: ganti deskripsi ini — saat ini masih copy dari post pertama, belum sesuai untuk 'Dearest Waltz'.",
+    description: "Dearest Waltz is a gentle and flowing waltz, born unexpectedly in a quiet moment at the piano. While finishing my previous composition, Waltz DN.54, I continued to play freely, and without planning it, the melody of this waltz began to emerge.Although written in C♯ minor, Dearest Waltz carries a cheerful and warm spirit. Its melody gently dances between light and shadow, portraying the feeling of smiling above sadness not to deny it, but to embrace it with hope. Beneath its joyful character lies a message of positivity, tenderness, and affection.Dearest Waltz is a small reminder that even in moments touched by sadness, there can still be warmth in the heart, a reason to smile, and love to share.",
     videoId: "075pzcxdRsk",
     vertical: true,
-    sourceUrl: "TODO: isi link thread Reddit-nya di sini",
+    sourceUrl: "#",
     sourceLabel: "",
     date: "Agustus 2026",
     comments: []
