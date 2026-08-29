@@ -354,9 +354,9 @@ const WORKS = [
     desc: "A slow and peaceful piano piece that feels like lying beneath a quiet, glowing sky. The melody stays light and high, almost as if the notes are floating in the air. I wanted Elysium to feel simple, warm, and unhurried a small place where the mind can finally rest.",
     soundcloud: "",
     musescore: "",
-    spotify: "",
-    appleMusic: "",
-    youtubeMusic: ""
+    spotify: "https://open.spotify.com/track/7vNBA9lwp2jhcYOuAOXcfh?si=6f641d79c7d741d4",
+    appleMusic: "https://music.apple.com/jp/album/elysium-single/6805027861",
+    youtubeMusic: "https://music.youtube.com/playlist?list=OLAK5uy_mSBcHwqHV7LieMBHKbJTmCB_MHYzBH0Xg&si=DeaLRATNcKBgXs6-"
   },
    {
     catno: "DN.30",
@@ -629,9 +629,9 @@ const WORKS = [
     desc: "I wrote this piece thinking about the feeling of being in love when even the simplest moments feel a little more beautiful. A gentle waltz in C-sharp minor, carrying a warm sense of happiness, tenderness, and the quiet joy of having someone you truly love in your heart. 8/2026",
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/37069763",
-    spotify: "",
-    appleMusic: "",
-    youtubeMusic: ""
+    spotify: "https://open.spotify.com/track/7GqNxLt6uaBzfMbdYrxRII?si=d445513fb43547f9",
+    appleMusic: "https://music.apple.com/jp/album/beloved-waltz-single/6805050501",
+    youtubeMusic: "https://music.youtube.com/playlist?list=OLAK5uy_nihKxkMzpyFAMI-kFem1EF7IyeBG9cLU0&si=Id4KmRaLW4FMoKzo"
   },
   {
     catno: "DN.55",
@@ -640,8 +640,8 @@ const WORKS = [
     desc: "Dearest Waltz is a gentle and flowing waltz, born unexpectedly in a quiet moment at the piano. While finishing my previous composition, Waltz DN.54, I continued to play freely, and without planning it, the melody of this waltz began to emerge.Although written in C♯ minor, Dearest Waltz carries a cheerful and warm spirit. Its melody gently dances between light and shadow, portraying the feeling of smiling above sadness not to deny it, but to embrace it with hope. Beneath its joyful character lies a message of positivity, tenderness, and affection.Dearest Waltz is a small reminder that even in moments touched by sadness, there can still be warmth in the heart, a reason to smile, and love to share. 8/2026",
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/36907076",
-    spotify: "",
-    appleMusic: "",
-    youtubeMusic: ""
+    spotify: "https://open.spotify.com/track/6PaY6ElshHT8pqefQvQCGE?si=235cd3e71c664ee3",
+    appleMusic: "https://music.apple.com/jp/album/dearest-waltz-single/6804621570",
+    youtubeMusic: "https://music.youtube.com/playlist?list=OLAK5uy_kYn_MDA35rnGW6cAc40bodO91xkTqmfPU&si=nLwVAEq8kbXdLGxx"
   },
 ];
