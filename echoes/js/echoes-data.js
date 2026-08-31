@@ -71,7 +71,7 @@ const ECHOES = [
     title: "What do you feel when you listen to my waltz?",
     caption: "Tried composing a waltz that’s actually fun to play on the piano.",
     description: "Beloved Waltz a little waltz I wrote about longing and missing someone. Hope you enjoy it!",
-    videoId: "075pzcxdRsk",
+    videoId: "TapLi_GCGrY",
     vertical: true,
     sourceUrl: "https://www.reddit.com/r/piano/s/B7A9WFE4HL",
     sourceLabel: "View thread on Reddit",
