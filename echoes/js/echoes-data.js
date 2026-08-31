@@ -93,6 +93,24 @@ const ECHOES = [
 { author: "Important-Figure-512", text: "i like it, i'll play it" },
 
     ]
+  },
+     {
+    id: "i-play-dearest-waltz",
+    title: " I just composed something cheerful and fun",
+    caption: "Tried composing a waltz that’s actually fun to play on the piano.",
+    description: "Dearest Waltz a little waltz I wrote about longing and missing someone. Hope you enjoy it!",
+    videoId: "075pzcxdRsk",
+    vertical: true,
+    sourceUrl: "https://www.reddit.com/r/Composition/s/XTnfF4vb3N",
+    sourceLabel: "View thread on Reddit",
+    date: "Sept 2026",
+    comments: [
+       { author: "Nevermynde", text: "I like it! But it doesn't sound that cheerful to me, I hear a certain longing." },
+       { author: "Dim_Kalo", text: "very nice and calming! I like it" },
+       { author: "realCloudyMcCloud", text: "Very catchy! I feel Shostakovich could even be proud of that! I see you sorted out the double-sharps issue in the revision. Bar 35, though, sounds a bit Les Dawsony with the E-sharp against E-natural in the left hand. I would suggest E-natural in both hands to avoid that conflict." },
+       { author: "SaxolotlGuy113", text: "VERY NOICE, I really like the use of the motif with the ornamentation, the harmony gives it such a nice sense of longing. Also, great use of all the little micro tensions. But, seriously, WHY IS EVERYONE MAKING MUSIC IN C# MINOR???!!! I know it is a very popular key but I thought we would move on from it by now. Anyway, I also made my first piano piece in 3/4 but it's not a waltz if you want to check it out." },
+
+    ]
   }
 ];
 
