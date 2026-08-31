@@ -67,16 +67,32 @@ const ECHOES = [
     ]
   },
   {
-    id: "i-play-dearest-waltz",
-    title: "When I Play Dearest Waltz at Night",
-    caption: "I chose to play this piece at a slightly faster pace, which gives it a more lively and energetic character. Honestly, playing this piece is incredibly fun, it has a sense of movement and excitement that makes every moment enjoyable.",
-    description: "Dearest Waltz is a gentle and flowing waltz, born unexpectedly in a quiet moment at the piano. While finishing my previous composition, Waltz DN.54, I continued to play freely, and without planning it, the melody of this waltz began to emerge.Although written in C♯ minor, Dearest Waltz carries a cheerful and warm spirit. Its melody gently dances between light and shadow, portraying the feeling of smiling above sadness not to deny it, but to embrace it with hope. Beneath its joyful character lies a message of positivity, tenderness, and affection.Dearest Waltz is a small reminder that even in moments touched by sadness, there can still be warmth in the heart, a reason to smile, and love to share.",
+    id: "i-play-beloved-waltz",
+    title: "What do you feel when you listen to my waltz?",
+    caption: "Tried composing a waltz that’s actually fun to play on the piano.",
+    description: "Beloved Waltz a little waltz I wrote about longing and missing someone. Hope you enjoy it!",
     videoId: "075pzcxdRsk",
     vertical: true,
-    sourceUrl: "#",
-    sourceLabel: "",
+    sourceUrl: "https://www.reddit.com/r/piano/s/B7A9WFE4HL",
+    sourceLabel: "View thread on Reddit",
     date: "Agustus 2026",
-    comments: []
+    comments: [
+       { author: "FrankSuper80", text: "Saudades!" },
+       { author: "stephenp129", text: "I really like this!" },
+       { author: "ohlongjonson", text: "Nice!  Reminds me a bit of Chopin's Waltz in A minor" },
+       { author: "Minute_Account_4877", text: "Happiness!" },
+{ author: "Kruil", text: "Wow! Just wow! How long have you been playing piano?" },
+{ author: "weird_boi_eros", text: "Sounds exquisite and also a tad bit melancholic, absolutely loved this piece! Edit: I just read your description after commenting. It perfectly encapsulates those emotions" },
+{ author: "Witty_Drag5995", text: "I feel like, I feel like..." },
+{ author: "coffee_juice87", text: "SICK !" },
+{ author: "Teddyboymakes", text: "I like it" },
+{ author: "my_mirai", text: "This is lovely! I don't have any music background but as someone who did some ballet in past and now do figure skating, your waltz feels it'd be fun to dance to." },
+{ author: "MRDRMUFN", text: "Sounds very nice. Looks fun to play. I won't say this is a negative but it does remind me of the main theme of Game of Thrones. I could be misremembering but it might be because it's also a waltz." },
+{ author: "TheTorturedMind", text: "is that a fantaisie impromptu reference? it works really well" },
+{ author: "GrandpaRonin", text: "Lovely waltz. I would love to learn how to play it!" },
+{ author: "Important-Figure-512", text: "i like it, i'll play it" },
+
+    ]
   }
 ];
 
