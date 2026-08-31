@@ -111,6 +111,24 @@ const ECHOES = [
        { author: "SaxolotlGuy113", text: "VERY NOICE, I really like the use of the motif with the ornamentation, the harmony gives it such a nice sense of longing. Also, great use of all the little micro tensions. But, seriously, WHY IS EVERYONE MAKING MUSIC IN C# MINOR???!!! I know it is a very popular key but I thought we would move on from it by now. Anyway, I also made my first piano piece in 3/4 but it's not a waltz if you want to check it out." },
 
     ]
+  },
+     {
+    id: "i-juts-composed-furnama",
+    title: "I Composed this piece - Fürnama",
+    caption: "My most controversial composition.",
+    description: "Furnama is derived from the Indonesian word “purnama,” symbolizing the beauty of a full moon. I composed it in the key of E minor using a descending bass technique with a simple melody.",
+    videoId: "p4nFCmUGpIU",
+    vertical: true,
+    sourceUrl: "https://www.reddit.com/r/piano/s/fHRZt81rCk",
+    sourceLabel: "View thread on Reddit",
+    date: "Sept 2026",
+    comments: [
+       { author: "Sausage_fingies", text: "Sounds heavily inspired by Chopin's famous Op. 28 Prelude in E Minor" },
+       { author: "Ok_term_3984", text: "Hey man, loving it, is there a sheet music?" },
+       { author: "dovahkiin461", text: "Love this, the motif at the 8th and 9th measures is magical! Some people are saying this is too similar to Chopins prelude but I disagree, this seems to have quite a distinct sound, very much a funeral march with almost a snake charmer type vibe. Plus, all music builds from the past anyways." },
+       { author: "Turbulent-lion31", text: "Really compelling piece. The dissonant moments are the best parts, and I think you can lean into them more in future works. See where it takes you!" },
+       { author: "Syzygy", text: "Don't listen to the Gate-keepy wannabe, your creation is beautiful. He adds nothing of value." },
+    ]
   }
 ];
 
