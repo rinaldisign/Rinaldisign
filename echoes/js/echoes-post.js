@@ -58,6 +58,23 @@ document.getElementById("year").textContent = new Date().getFullYear();
   onScroll();
 })();
 
+/* ---------- mobile nav toggle (hamburger) ---------- */
+(function initNavToggle(){
+  const nav = document.getElementById("siteNav");
+  const toggle = document.getElementById("navToggle");
+  if (!nav || !toggle) return;
+  toggle.addEventListener("click", function(){
+    const isOpen = nav.classList.toggle("nav-open");
+    toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+  nav.querySelectorAll(".links a").forEach(function(a){
+    a.addEventListener("click", function(){
+      nav.classList.remove("nav-open");
+      toggle.setAttribute("aria-expanded", "false");
+    });
+  });
+})();
+
 function escapeHtml(str) {
   return String(str || "")
     .replace(/&/g, "&amp;")

@@ -30,7 +30,10 @@
 
 <nav class="site-nav" id="siteNav">
   <a class="mark" href="#top">Rinaldisign</a>
-  <div class="links">
+  <button class="nav-toggle" id="navToggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="links" id="navLinks">
     <a href="#listen">Listen</a>
     <a href="works/index.html">Works</a>
     <a href="echoes/index.html">Echoes</a>
@@ -232,6 +235,23 @@
     }
     document.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
+  })();
+
+  /* ---------- mobile nav toggle (hamburger) ---------- */
+  (function(){
+    const nav = document.getElementById('siteNav');
+    const toggle = document.getElementById('navToggle');
+    if (!nav || !toggle) return;
+    toggle.addEventListener('click', function(){
+      const isOpen = nav.classList.toggle('nav-open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+    nav.querySelectorAll('.links a').forEach(function(a){
+      a.addEventListener('click', function(){
+        nav.classList.remove('nav-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
   })();
 
   /* ---------- scroll reveal ---------- */
