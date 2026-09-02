@@ -3,8 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Echoes - Rinaldisign</title>
-<meta name="description" content="Echoes — reactions from the world to Rinaldisign's original piano works.">
+<title>About - Rinaldisign</title>
+<meta name="description" content="About Rinaldi — the architect and composer behind Rinaldisign, and where to follow the project.">
+
+<meta property="og:title" content="About - Rinaldisign">
+<meta property="og:description" content="The architect and composer behind Rinaldisign.">
+<meta property="og:image" content="../img/profile-rinaldi.jpg">
+<meta property="og:type" content="website">
 
 <link rel="icon" type="image/x-icon" href="../favicon.ico">
 
@@ -13,22 +18,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="css/echoes.css">
+<link rel="stylesheet" href="css/about.css">
 
 <!--
   ====================================================================
   STRUKTUR FILE HALAMAN INI
   ====================================================================
-  index.html         -> halaman list ini (markup saja)
-  post.html           -> halaman detail 1 post (video + komentar gelembung)
-  css/echoes.css      -> semua tampilan section Echoes (list & detail)
-  js/echoes-data.js   -> SATU-SATUNYA file yang perlu diedit untuk
-                         menambah/mengubah post
-  js/echoes-list.js   -> logic khusus halaman list ini
-  js/echoes-post.js   -> logic khusus halaman detail (post.html)
-
-  Background pakai ../img/WORKS_BG.jpg (dipakai bersama dengan
-  halaman Works supaya section terasa satu keluarga visual).
+  index.html        -> markup saja (file ini)
+  css/about.css      -> semua tampilan halaman About
+  js/about-data.js   -> SATU-SATUNYA file yang perlu diedit untuk
+                        mengubah foto, teks bio, atau daftar sosial media
+  js/about.js        -> logic: render foto/teks/sosial, intro, kunang-kunang
   ====================================================================
 -->
 </head>
@@ -49,28 +49,36 @@
   <a class="mark" href="../index.html">Rinaldisign</a>
   <div class="links">
     <a href="../works/index.html">Works</a>
+    <a href="../echoes/index.html">Echoes</a>
     <a href="../index.html#listen">Listen</a>
-    <a href="../about/index.html">About</a>
     <a href="../index.html">Home</a>
   </div>
 </nav>
 
 <main>
 
-  <section class="works-hero">
-    <div class="section-inner">
-      <span class="label">From Listeners</span>
-      <h1>Echoes</h1>
-      <p class="sub">Reactions from the world, real comments from people who found these pieces, gathered here alongside the moment it happened.</p>
+  <section class="about-hero">
+    <div class="section-inner about-inner">
+      <div class="about-photo">
+        <img id="aboutPhoto" src="" alt="">
+      </div>
+      <div class="about-copy">
+        <span class="label">The Practice</span>
+        <h1 id="aboutName"></h1>
+        <div class="about-text" id="aboutText"></div>
+      </div>
     </div>
   </section>
 
-  <section class="echo-section">
+  <section class="about-social">
     <div class="section-inner">
+      <div class="heading">
+        <h2>Find Me Online</h2>
+        <p class="sub">Every composition, every update — follow along on your platform of choice.</p>
+      </div>
 
-      <!-- List di-generate otomatis oleh js/echoes-list.js dari js/echoes-data.js -->
-      <div class="echo-grid" id="echoGrid"></div>
-
+      <!-- Grid ikon di-generate otomatis oleh js/about.js dari js/about-data.js -->
+      <div class="platform-grid" id="socialGrid"></div>
     </div>
   </section>
 
@@ -82,13 +90,13 @@
   <div class="foot-links">
     <a href="../index.html">Home</a>
     <a href="../works/index.html">Works</a>
-    <a href="../about/index.html">About</a>
+    <a href="../echoes/index.html">Echoes</a>
     <a href="../index.html#listen">Listen</a>
   </div>
 </footer>
 
-<script src="js/echoes-data.js"></script>
-<script src="js/echoes-list.js"></script>
+<script src="js/about-data.js"></script>
+<script src="js/about.js"></script>
 
 </body>
 </html>

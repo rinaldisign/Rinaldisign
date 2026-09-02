@@ -34,6 +34,7 @@
     <a href="#listen">Listen</a>
     <a href="works/index.html">Works</a>
     <a href="echoes/index.html">Echoes</a>
+    <a href="about/index.html">About</a>
   </div>
 </nav>
 
@@ -63,14 +64,7 @@
   </section>
 
   <section class="statement">
-    <div class="section-inner">
-      <div class="reveal">
-        <span class="label">The Practice</span>
-        <blockquote>
-          Hi everyone, I’m Rinaldi. I’m an architect who loves making music. I created a project called “Desain Nada,” abbreviated as DN, to preserve the melodies I compose. I have always loved creating original melodies, but in the past, I never documented them, and many of them simply disappeared with time. From now on, I want to carefully document and preserve my compositions here, so they can remain as a record of my musical journey.
-        </blockquote>
-      </div>
-
+    <div class="section-inner statement-solo">
       <div class="path reveal">
         <span class="label">The Count</span>
         <div class="count">
@@ -82,52 +76,46 @@
     </div>
   </section>
 
-  <section class="featured" id="featured">
+  <section class="popular" id="popular">
     <div class="section-inner">
-      <div class="featured-head reveal">
-        <span class="label">Today’s Pick</span>
-        <h2>A Composition, at Random</h2>
-        <p class="sub">One piece from the archive, surfaced for you each time you visit press play to listen, or open the score.</p>
+      <div class="popular-head reveal">
+        <span class="label">Most Popular</span>
+        <h2>Fan Favorites</h2>
+        <p class="sub">The three compositions listeners return to the most tap a title to open its page.</p>
       </div>
 
-      <div class="featured-card reveal" id="featuredCard">
-        <div class="featured-cover">
-          <img id="fCover" src="" alt="">
-          <button class="featured-play" id="fPlayBtn" type="button" aria-label="Play this composition">
-            <span class="ring">
-              <svg class="icon-play" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      <ol class="popular-list reveal">
+        <li class="popular-item">
+          <a href="w/dn22/">
+            <span class="popular-rank">01</span>
+            <span class="popular-name">
+              <span class="popular-catno">DN.22</span>
+              <span class="popular-title">2Keychains</span>
             </span>
-          </button>
-        </div>
-
-        <div class="featured-body">
-          <span class="featured-catno" id="fCatno"></span>
-          <h3 id="fTitle"></h3>
-          <p class="featured-desc" id="fDesc"></p>
-
-          <div class="featured-listen" id="fListenRow"></div>
-
-          <div class="featured-player" id="fPlayerWrap" style="display:none;">
-            <iframe id="fPlayer" title="SoundCloud player" scrolling="no" frameborder="no" allow="autoplay"></iframe>
-          </div>
-
-          <div class="featured-score" id="fScoreWrap" style="display:none;">
-            <div class="fs-toolbar">
-              <span class="fs-label">Sheet Music</span>
-              <button class="fs-toggle" id="fScoreToggle" type="button" title="Expand" aria-label="Expand sheet music">
-                <svg class="icon-expand" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
-                <svg class="icon-minimize" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M4 14h6v6M20 10h-6V4M14 10l7-7M10 14l-7 7"/></svg>
-              </button>
-            </div>
-            <div class="fs-frame"><iframe id="fScoreFrame" title="Sheet music preview" frameborder="0" allowfullscreen></iframe></div>
-          </div>
-
-          <div class="featured-actions">
-            <a class="btn btn-solid" id="fCatalogLink" href="works/index.html">View in Catalog</a>
-            <button class="btn btn-ghost" id="fShuffleBtn" type="button">🔀 Shuffle</button>
-          </div>
-        </div>
-      </div>
+            <span class="popular-arrow">→</span>
+          </a>
+        </li>
+        <li class="popular-item">
+          <a href="w/dn12/">
+            <span class="popular-rank">02</span>
+            <span class="popular-name">
+              <span class="popular-catno">DN.12</span>
+              <span class="popular-title">Memory Glow</span>
+            </span>
+            <span class="popular-arrow">→</span>
+          </a>
+        </li>
+        <li class="popular-item">
+          <a href="w/dn54/">
+            <span class="popular-rank">03</span>
+            <span class="popular-name">
+              <span class="popular-catno">DN.54</span>
+              <span class="popular-title">Beloved Waltz</span>
+            </span>
+            <span class="popular-arrow">→</span>
+          </a>
+        </li>
+      </ol>
     </div>
   </section>
 
@@ -175,6 +163,7 @@
   <div class="foot-links">
     <a href="works/index.html">Works</a>
     <a href="echoes/index.html">Echoes</a>
+    <a href="about/index.html">About</a>
     <a href="#listen">Listen</a>
     <a href="#top">Back to top</a>
   </div>
@@ -193,148 +182,6 @@
     if (currentEl && typeof WORKS !== 'undefined') {
       currentEl.textContent = String(WORKS.length).padStart(3, '0');
     }
-  })();
-
-
-  /* ---------- Featured Composition — random/hari ini ----------
-     Pilihannya deterministik per tanggal (bukan acak tiap reload),
-     biar orang yang buka situs di hari yang sama lihat karya yang
-     sama juga — nggak berasa "loncat-loncat" tiap refresh. Tombol
-     Shuffle di widget untuk yang mau coba karya lain secara acak. */
-  (function(){
-    if (typeof WORKS === 'undefined' || !WORKS.length) return;
-
-    const card = document.getElementById('featuredCard');
-    const fCover = document.getElementById('fCover');
-    const fPlayBtn = document.getElementById('fPlayBtn');
-    const fCatno = document.getElementById('fCatno');
-    const fTitle = document.getElementById('fTitle');
-    const fDesc = document.getElementById('fDesc');
-    const fListenRow = document.getElementById('fListenRow');
-    const fPlayerWrap = document.getElementById('fPlayerWrap');
-    const fPlayer = document.getElementById('fPlayer');
-    const fScoreWrap = document.getElementById('fScoreWrap');
-    const fScoreFrame = document.getElementById('fScoreFrame');
-    const fScoreToggle = document.getElementById('fScoreToggle');
-    const fCatalogLink = document.getElementById('fCatalogLink');
-    const fShuffleBtn = document.getElementById('fShuffleBtn');
-
-    /* Sama seperti works.js: ubah link halaman Musescore jadi URL embed. */
-    function musescoreEmbedSrc(w){
-      if (w.musescoreEmbed) return w.musescoreEmbed;
-      const link = w.musescore;
-      if (!link || link === '#') return null;
-      if (/musescore\.com\/.+\/scores\/[^/?#]+/.test(link)) {
-        return link.replace(/\/embed.*$/, '').replace(/\/+$/, '') + '/embed?autoplay=false';
-      }
-      return null;
-    }
-
-    /* Paksa parameter auto_play=true tanpa merusak URL embed SoundCloud
-       yang sudah ditempel di works-data.js (yang biasanya sudah punya
-       auto_play=false bawaan dari Musescore/SoundCloud). */
-    function withAutoplay(url){
-      try {
-        const u = new URL(url);
-        u.searchParams.set('auto_play', 'true');
-        return u.toString();
-      } catch (e) {
-        return url;
-      }
-    }
-
-    function renderListenIcons(w){
-      fListenRow.innerHTML = '';
-      const platforms = [
-        { url: w.spotify, icon: 'img/spotify.png', label: 'Spotify' },
-        { url: w.appleMusic, icon: 'img/applemusic.png', label: 'Apple Music' },
-        { url: w.youtubeMusic, icon: 'img/youtube.png', label: 'YouTube Music' }
-      ].filter(p => p.url);
-
-      if (!platforms.length) { fListenRow.style.display = 'none'; return; }
-      fListenRow.style.display = '';
-      platforms.forEach(p => {
-        const a = document.createElement('a');
-        a.href = p.url;
-        a.target = '_blank';
-        a.rel = 'noopener';
-        a.title = 'Listen on ' + p.label;
-        a.innerHTML = `<img src="${p.icon}" alt="${p.label}">`;
-        fListenRow.appendChild(a);
-      });
-    }
-
-    function dayIndex(){
-      const start = new Date(new Date().getFullYear(), 0, 0);
-      const dayOfYear = Math.floor((new Date() - start) / 86400000);
-      return dayOfYear % WORKS.length;
-    }
-
-    let currentIndex = dayIndex();
-
-    function render(index){
-      const w = WORKS[index];
-      currentIndex = index;
-
-      fCover.src = w.cover;
-      fCover.alt = w.title + ' — cover art';
-      fCatno.textContent = w.catno;
-      fTitle.textContent = w.title;
-      fDesc.textContent = w.desc;
-
-      renderListenIcons(w);
-
-      /* reset player tiap ganti karya, biar nggak ada 2 audio numpuk */
-      fPlayer.src = '';
-      fPlayerWrap.style.display = 'none';
-      card.classList.remove('is-playing');
-      fPlayBtn.style.display = w.soundcloud ? '' : 'none';
-
-      const museSrc = musescoreEmbedSrc(w);
-      if (museSrc) {
-        fScoreWrap.style.display = '';
-        fScoreFrame.src = museSrc;
-      } else {
-        fScoreWrap.style.display = 'none';
-        fScoreFrame.src = '';
-      }
-
-      card.classList.remove('is-expanded');
-      fScoreToggle.querySelector('.icon-expand').style.display = '';
-      fScoreToggle.querySelector('.icon-minimize').style.display = 'none';
-
-      /* ?q=DN.x -> halaman Works otomatis mem-filter ke karya ini */
-      fCatalogLink.href = `works/index.html?q=${encodeURIComponent(w.catno)}`;
-    }
-
-    /* Play baru jalan (dengan suara) setelah user KLIK tombol ini.
-       Browser modern blokir autoplay bersuara tanpa interaksi user,
-       jadi ini titik paling wajar & andal untuk mulai memutar. */
-    fPlayBtn.addEventListener('click', function(){
-      const w = WORKS[currentIndex];
-      if (!w.soundcloud) return;
-      fPlayerWrap.style.display = '';
-      fPlayer.src = withAutoplay(w.soundcloud);
-      card.classList.add('is-playing');
-    });
-
-    fScoreToggle.addEventListener('click', function(){
-      const expanding = !card.classList.contains('is-expanded');
-      card.classList.toggle('is-expanded', expanding);
-      fScoreToggle.title = expanding ? 'Minimize' : 'Expand';
-      fScoreToggle.setAttribute('aria-label', expanding ? 'Minimize sheet music' : 'Expand sheet music');
-      fScoreToggle.querySelector('.icon-expand').style.display = expanding ? 'none' : '';
-      fScoreToggle.querySelector('.icon-minimize').style.display = expanding ? '' : 'none';
-    });
-
-    fShuffleBtn.addEventListener('click', function(){
-      if (WORKS.length < 2) { render(currentIndex); return; }
-      let next;
-      do { next = Math.floor(Math.random() * WORKS.length); } while (next === currentIndex);
-      render(next);
-    });
-
-    render(currentIndex);
   })();
 
 
