@@ -389,48 +389,34 @@ section{ position:relative; z-index:2; }
 .path .btn{ margin-top:30px; }
 
 /* =========================================================
-   STATEMENT + PATH TO 1000
+   ORIGINAL COMPOSITIONS — "The Count" + "Most Popular" + Full Catalog
+   Digabung jadi satu section supaya homepage lebih pendek: dua kolom
+   berdampingan (kiri = The Count, kanan = Most Popular), semua teks
+   rata kiri, lalu di bawahnya jendela scroll berisi seluruh katalog.
    ========================================================= */
-.statement{
-  background:linear-gradient(180deg, var(--ink) 0%, var(--forest) 100%);
+.compositions{
+  background:linear-gradient(180deg, var(--ink) 0%, var(--forest) 55%, var(--ink) 100%);
 }
-.statement .section-inner{
-  display:grid;
-  grid-template-columns:1.15fr .85fr;
-  gap:90px;
-  align-items:start;
-}
-.statement blockquote{
-  font-family:var(--font-display);
-  font-weight:400;
-  font-size:clamp(24px, 3vw, 34px);
-  line-height:1.5;
-  color:var(--paper);
-}
-.statement blockquote em{
-  font-style:italic;
-  color:var(--gold-soft);
-}
+.compositions-inner{ padding-top:130px; padding-bottom:130px; }
 
-/* statement section with only "The Count" (no two-column split
-   needed anymore now that "The Practice" moved to the About page) */
-.statement-solo{
+.compositions-title{
   display:flex;
   justify-content:center;
+  margin-bottom:56px;
 }
-.statement-solo .path{
-  text-align:center;
-  max-width:460px;
-}
-.statement-solo .path .label{ justify-content:center; }
-.statement-solo .path .count{ justify-content:center; }
-.statement-solo .path .caption{ margin-left:auto; margin-right:auto; }
 
-.path{
+.compositions-grid{
+  display:grid;
+  grid-template-columns:.85fr 1.15fr;
+  gap:80px;
+  align-items:start;
+  text-align:left;
+}
+
+.popular-col{
   border-left:1px solid var(--line);
   padding-left:42px;
 }
-.statement-solo .path{ border-left:none; padding-left:0; }
 .path .count{
   display:flex;
   align-items:baseline;
@@ -647,34 +633,10 @@ section{ position:relative; z-index:2; }
    LISTEN / PLATFORMS
    ========================================================= */
 .listen{ background:var(--forest); }
-/* =========================================================
-   MOST POPULAR — top 3 compositions, homepage
-   ========================================================= */
-.popular{
-  background:linear-gradient(180deg, var(--forest) 0%, var(--ink) 100%);
-  border-top:1px solid var(--line);
-}
-.popular-head{
-  max-width:560px;
-  margin:0 auto 48px;
-  text-align:center;
-}
-.popular-head .label{ justify-content:center; }
-.popular-head h2{
-  font-family:var(--font-display);
-  font-weight:400;
-  font-size:clamp(28px, 3.6vw, 40px);
-  margin:0 0 14px;
-}
-.popular-head .sub{
-  font-size:14px;
-  line-height:1.7;
-  color:var(--paper-dim);
-}
+/* ---- Most Popular — top 3, right column, with small covers ---- */
+.popular-col > .label{ margin-bottom:22px; }
 
 .popular-list{
-  max-width:720px;
-  margin:0 auto;
   list-style:none;
   border-top:1px solid var(--line);
 }
@@ -682,25 +644,35 @@ section{ position:relative; z-index:2; }
 .popular-item a{
   display:flex;
   align-items:center;
-  gap:24px;
-  padding:26px 8px;
+  gap:16px;
+  padding:16px 8px;
   text-decoration:none;
   color:var(--paper);
   transition:padding-left .35s var(--ease), color .35s var(--ease);
 }
 .popular-item a:hover{ padding-left:14px; color:var(--gold-soft); }
+.popular-cover{
+  flex:0 0 46px;
+  width:46px;
+  height:46px;
+  border-radius:6px;
+  overflow:hidden;
+  background:var(--forest-2);
+}
+.popular-cover img{ width:100%; height:100%; object-fit:cover; }
 .popular-rank{
   font-family:var(--font-mono);
-  font-size:14px;
+  font-size:13px;
   color:var(--gold);
-  min-width:28px;
+  min-width:22px;
 }
 .popular-name{
   display:flex;
   align-items:baseline;
-  gap:16px;
+  gap:14px;
   flex:1;
   flex-wrap:wrap;
+  min-width:0;
 }
 .popular-catno{
   font-family:var(--font-mono);
@@ -710,7 +682,7 @@ section{ position:relative; z-index:2; }
 }
 .popular-title{
   font-family:var(--font-display);
-  font-size:clamp(20px, 2.6vw, 26px);
+  font-size:clamp(18px, 2.2vw, 22px);
 }
 .popular-arrow{
   font-size:16px;
@@ -718,6 +690,80 @@ section{ position:relative; z-index:2; }
   transition:transform .35s var(--ease), color .35s var(--ease);
 }
 .popular-item a:hover .popular-arrow{ transform:translateX(4px); color:var(--gold); }
+
+/* ---- Full Catalog — scrollable window listing every composition ---- */
+.all-works{ margin-top:70px; }
+.all-works-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:18px;
+}
+.all-works-head .label{ margin-bottom:0; }
+.all-works-count{
+  font-family:var(--font-mono);
+  font-size:12px;
+  color:var(--paper-dim);
+  white-space:nowrap;
+}
+
+.all-works-scroll{
+  max-height:340px;
+  overflow-y:auto;
+  overscroll-behavior:contain;
+  scroll-behavior:smooth;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  scrollbar-width:thin;
+  scrollbar-color:var(--gold) transparent;
+}
+.all-works-scroll::-webkit-scrollbar{ width:6px; }
+.all-works-scroll::-webkit-scrollbar-track{ background:transparent; }
+.all-works-scroll::-webkit-scrollbar-thumb{ background:var(--line); border-radius:3px; }
+.all-works-scroll::-webkit-scrollbar-thumb:hover{ background:var(--gold); }
+
+.all-work-row{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding:10px 8px;
+  text-decoration:none;
+  color:var(--paper);
+  border-bottom:1px solid var(--line);
+  transition:background .3s var(--ease), padding-left .3s var(--ease), color .3s var(--ease);
+}
+.all-work-row:last-child{ border-bottom:none; }
+.all-work-row:hover{ background:rgba(185,141,74,.07); padding-left:14px; color:var(--gold-soft); }
+.all-work-cover{
+  flex:0 0 32px;
+  width:32px;
+  height:32px;
+  border-radius:4px;
+  overflow:hidden;
+  background:var(--forest-2);
+}
+.all-work-cover img{ width:100%; height:100%; object-fit:cover; }
+.all-work-catno{
+  flex:0 0 54px;
+  font-family:var(--font-mono);
+  font-size:11px;
+  color:var(--paper-dim);
+}
+.all-work-title{
+  flex:1;
+  min-width:0;
+  font-family:var(--font-display);
+  font-size:16px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.all-work-arrow{
+  flex:0 0 auto;
+  font-size:13px;
+  color:var(--paper-dim);
+}
 
 .listen .heading{
   display:flex;
@@ -820,22 +866,24 @@ footer .foot-links a:hover{ color:var(--gold-soft); }
    MOBILE
    ========================================================= */
 @media (max-width:860px){
-  .statement .section-inner{
+  .compositions-grid{
     grid-template-columns:1fr;
-    gap:56px;
+    gap:52px;
   }
-  .path{ border-left:none; border-top:1px solid var(--line); padding-left:0; padding-top:36px; }
+  .popular-col{ border-left:none; border-top:1px solid var(--line); padding-left:0; padding-top:36px; }
   .platform-grid{ grid-template-columns:repeat(2, 1fr); }
   .listen .sub{ text-align:left; }
   .featured-card{ grid-template-columns:1fr; }
   .featured-cover{ aspect-ratio:16/9; }
   .featured-body{ padding:32px 28px; }
-  .popular-item a{ gap:14px; padding:20px 6px; }
+  .popular-item a{ gap:12px; padding:14px 6px; }
   .popular-name{ gap:8px; }
+  .all-works-scroll{ max-height:300px; }
 }
 
 @media (max-width:520px){
   .section-inner{ padding:110px 22px; }
+  .compositions-inner{ padding-top:90px; padding-bottom:90px; }
   .seal{ width:170px; height:170px; margin:32px auto 30px; }
   .seal .logo{ width:50px; }
   .platform-grid{ grid-template-columns:repeat(2, 1fr); }
@@ -844,6 +892,9 @@ footer .foot-links a:hover{ color:var(--gold-soft); }
   .featured-play .ring{ width:52px; height:52px; }
   .fs-frame{ height:200px; }
   .featured-card.is-expanded .fs-frame{ height:400px; }
+  .all-work-catno{ flex-basis:44px; }
+  .all-work-title{ font-size:15px; }
+  .all-works-scroll{ max-height:280px; }
 }
 
 /* =========================================================

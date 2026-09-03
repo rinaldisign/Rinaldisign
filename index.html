@@ -66,59 +66,69 @@
     </div>
   </section>
 
-  <section class="statement">
-    <div class="section-inner statement-solo">
-      <div class="path reveal">
-        <span class="label">The Count</span>
-        <div class="count">
-          <span class="current">000</span>
+  <section class="compositions" id="compositions">
+    <div class="section-inner compositions-inner">
+
+      <span class="label compositions-title reveal">Original Compositions</span>
+
+      <div class="compositions-grid">
+        <div class="path count-col reveal">
+          <span class="label">The Count</span>
+          <div class="count">
+            <span class="current">000</span>
+          </div>
+          <p class="caption">Compositions completed so far a growing archive of melodies, preserving the music I once created and never want to lose again.</p>
+          <a class="btn btn-outline" href="works/index.html">Browse the Catalog →</a>
         </div>
-        <p class="caption">Compositions completed so far a growing archive of melodies, preserving the music I once created and never want to lose again.</p>
-        <a class="btn btn-outline" href="works/index.html">Browse the Catalog →</a>
-      </div>
-    </div>
-  </section>
 
-  <section class="popular" id="popular">
-    <div class="section-inner">
-      <div class="popular-head reveal">
-        <span class="label">Most Popular</span>
-        <h2>Fan Favorites</h2>
-        <p class="sub">The three compositions listeners return to the most tap a title to open its page.</p>
+        <div class="popular-col reveal">
+          <span class="label">Most Popular</span>
+          <ol class="popular-list">
+            <li class="popular-item">
+              <a href="w/dn22/">
+                <span class="popular-cover"><img src="" alt="" loading="lazy"></span>
+                <span class="popular-rank">01</span>
+                <span class="popular-name">
+                  <span class="popular-catno">DN.22</span>
+                  <span class="popular-title">2Keychains</span>
+                </span>
+                <span class="popular-arrow">→</span>
+              </a>
+            </li>
+            <li class="popular-item">
+              <a href="w/dn12/">
+                <span class="popular-cover"><img src="" alt="" loading="lazy"></span>
+                <span class="popular-rank">02</span>
+                <span class="popular-name">
+                  <span class="popular-catno">DN.12</span>
+                  <span class="popular-title">Memory Glow</span>
+                </span>
+                <span class="popular-arrow">→</span>
+              </a>
+            </li>
+            <li class="popular-item">
+              <a href="w/dn54/">
+                <span class="popular-cover"><img src="" alt="" loading="lazy"></span>
+                <span class="popular-rank">03</span>
+                <span class="popular-name">
+                  <span class="popular-catno">DN.54</span>
+                  <span class="popular-title">Beloved Waltz</span>
+                </span>
+                <span class="popular-arrow">→</span>
+              </a>
+            </li>
+          </ol>
+        </div>
       </div>
 
-      <ol class="popular-list reveal">
-        <li class="popular-item">
-          <a href="w/dn22/">
-            <span class="popular-rank">01</span>
-            <span class="popular-name">
-              <span class="popular-catno">DN.22</span>
-              <span class="popular-title">2Keychains</span>
-            </span>
-            <span class="popular-arrow">→</span>
-          </a>
-        </li>
-        <li class="popular-item">
-          <a href="w/dn12/">
-            <span class="popular-rank">02</span>
-            <span class="popular-name">
-              <span class="popular-catno">DN.12</span>
-              <span class="popular-title">Memory Glow</span>
-            </span>
-            <span class="popular-arrow">→</span>
-          </a>
-        </li>
-        <li class="popular-item">
-          <a href="w/dn54/">
-            <span class="popular-rank">03</span>
-            <span class="popular-name">
-              <span class="popular-catno">DN.54</span>
-              <span class="popular-title">Beloved Waltz</span>
-            </span>
-            <span class="popular-arrow">→</span>
-          </a>
-        </li>
-      </ol>
+      <div class="all-works reveal">
+        <div class="all-works-head">
+          <span class="label">Full Catalog</span>
+          <span class="all-works-count" id="allWorksCount"></span>
+        </div>
+        <div class="all-works-scroll" id="allWorksScroll"></div>
+      </div>
+
     </div>
   </section>
 
@@ -185,6 +195,57 @@
     if (currentEl && typeof WORKS !== 'undefined') {
       currentEl.textContent = String(WORKS.length).padStart(3, '0');
     }
+  })();
+
+  /* ---------- helpers berbagi dengan works/js/works.js ----------
+     slug diturunkan dari catno (mis. "DN.22" -> "dn22"), dan path
+     cover disesuaikan karena file ini dijalankan dari root, bukan
+     dari dalam folder works/. */
+  function slugify(catno){
+    return (catno || '').replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+  }
+  function coverFromRoot(cover){
+    return (cover || '').replace(/^\.\.\//, '');
+  }
+
+  /* ---------- Most Popular — isi cover kecil otomatis dari works-data.js ---------- */
+  (function(){
+    if (typeof WORKS === 'undefined') return;
+    document.querySelectorAll('.popular-item a').forEach(function(a){
+      const slug = (a.getAttribute('href') || '').replace(/^w\//, '').replace(/\/$/, '');
+      const work = WORKS.find(w => slugify(w.catno) === slug);
+      const img = a.querySelector('.popular-cover img');
+      if (work && img) {
+        img.src = coverFromRoot(work.cover);
+        img.alt = work.title;
+      }
+    });
+  })();
+
+  /* ---------- Full Catalog — jendela scroll berisi semua karya ----------
+     Sama seperti "The Count", ini otomatis ambil dari works/js/works-data.js,
+     jadi tidak perlu diedit manual saat menambah karya baru. */
+  (function(){
+    const scrollBox = document.getElementById('allWorksScroll');
+    const countEl = document.getElementById('allWorksCount');
+    if (!scrollBox || typeof WORKS === 'undefined') return;
+
+    countEl.textContent = WORKS.length + ' pieces';
+
+    const html = WORKS.map(function(w){
+      const slug = slugify(w.catno);
+      const cover = coverFromRoot(w.cover);
+      return (
+        '<a class="all-work-row" href="w/' + slug + '/">' +
+          '<span class="all-work-cover"><img src="' + cover + '" alt="" loading="lazy"></span>' +
+          '<span class="all-work-catno">' + w.catno + '</span>' +
+          '<span class="all-work-title">' + w.title + '</span>' +
+          '<span class="all-work-arrow">→</span>' +
+        '</a>'
+      );
+    }).join('');
+
+    scrollBox.innerHTML = html;
   })();
 
 
