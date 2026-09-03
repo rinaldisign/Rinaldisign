@@ -376,9 +376,9 @@ const WORKS = [
     desc: "Affectionary is a solo piano piece in 6/8 that lives between light and shadow. Beneath its bright, glowing surface runs a quiet darkness, shaped by non-diatonic chords that repeat throughout the piece and never let the harmony fully settle. The music shifts between two moods: tender waltz passages with a gentle 6/8 sway, and rippling arpeggios that catch the light in quick, shimmering bursts. It moves from softness to intensity and back again, staying introspective without ever turning fully somber, much like affection itself: beautiful, but not simple.",
     soundcloud: "",
     musescore: "https://musescore.com/user/118322597/scores/36862169",
-    spotify: "",
-    appleMusic: "",
-    youtubeMusic: ""
+    spotify: "https://open.spotify.com/track/3oACirBWIAWJeouHBHxpLX?si=63U_f-ueTAmmzdQYUWr5gA&utm_source=copy-link",
+    appleMusic: "https://music.apple.com/jp/album/affectionary/6806219357?i=6806219358&l=en-US",
+    youtubeMusic: "https://music.youtube.com/watch?v=zPsrOfncfkE&si=lV9cBx_EwuxeX2O4"
   },
   {
     catno: "DN.32",
