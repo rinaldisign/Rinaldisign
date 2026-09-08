@@ -23,7 +23,7 @@ const ABOUT = {
   name: "Rinaldi",
 
   bio: [
-    "Hi everyone, I\u2019m Rinaldi. I\u2019m an architect who loves making music. I created a project called \u201cDesain Nada,\u201d abbreviated as DN, to preserve the melodies I compose.",
+    "Hi everyone, I\u2019m Rinaldi, real name (MN Rinaldi A), I\u2019m an architect who loves making music. I created a project called \u201cDesain Nada,\u201d abbreviated as DN, to preserve the melodies I compose.",
     "I have always loved creating original melodies, but in the past, I never documented them, and many of them simply disappeared with time.",
     "From now on, I want to carefully document and preserve my compositions here, so they can remain as a record of my musical journey."
   ],
